@@ -33,7 +33,7 @@ import { HeroComponent } from './hero/hero.component';
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
-  declarations: [
+  declarations: [  // the module with many components
     AppComponent,
     DashboardComponent,
     HeroesComponent,
@@ -43,7 +43,7 @@ import { HeroComponent } from './hero/hero.component';
     StrengthPipe,
     HeroComponent
   ],
-  providers: [ HeroService, MessageService ],
+  providers: [ HeroService, MessageService ],  // providers for our services
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
