@@ -3,7 +3,7 @@
 // an none of it's child components or directives
 
 import { ComponentFixture, TestBed } from "@angular/core/testing"
-import { HeroComponent } from "../hero/hero.component"
+import { HeroComponent } from "./hero.component"
 import { NO_ERRORS_SCHEMA } from "@angular/core";
 import { By } from "@angular/platform-browser";
 
